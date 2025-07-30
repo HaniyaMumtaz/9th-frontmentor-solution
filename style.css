@@ -1,0 +1,109 @@
+body{
+    margin-top: 100px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(204, 43%, 93%);
+    position: relative;
+    box-shadow: inset;
+    font-family: Karla;
+}
+
+.container{
+    max-width: 500px;
+    max-height: 3500px;
+    width: 500px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 20px;
+    box-shadow: inset;
+    
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+}
+
+.slogan{
+    color:  hsl(71, 78%, 51%);
+}
+
+.description{
+    color:  hsl(218, 22%, 67%);
+    font-size: 14px;
+    margin-bottom: 
+}
+#section1{
+    position: absolute;
+    bottom: 30px;
+    background-color:  hsl(179, 54%, 54%);
+    color: hsl(204, 43%, 93%);
+    max-width: 250px;
+    width: 250px;
+    padding: 15px ;
+    max-height: 180px;
+    height: 850px;
+    left: 350px;
+    border-bottom-left-radius: 10px;
+}
+
+#section2{
+    color: hsl(204, 43%, 93%);
+    padding: 15px;
+    position: absolute;
+    right: 350px;
+    bottom: 30px;
+    background-color:  hsl(179, 60%, 58%);
+    max-width: 260px;
+    width: 260px;
+    max-height: 180px;
+    height: 180px;
+    border-bottom-right-radius: 10px;
+}
+
+.darksetion-heading, .lightsection-heading {
+    font-size: 18px;
+}
+
+span{
+    font-size: 25px;
+    color: hsl(204, 43%, 93%);
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.dollar-phrase{
+    color:  hsl(204, 43%, 93%);
+    font-size: 14px;
+}
+
+.lightsection-description{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+button{
+    max-width: 200px;
+    width: 200px;
+    max-height: 40px;
+    height: 40px;
+    background-color:  hsl(71, 73%, 54%);
+    color:  white;
+    border-style: none;
+    border-color:  hsl(204, 43%, 93%);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
